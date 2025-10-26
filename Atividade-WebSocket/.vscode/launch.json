@@ -1,0 +1,14 @@
+{
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Spring Boot-WebsocketsAtividadeApplication<websockets_atividade>",
+               "request": "launch",
+               "cwd": "${workspaceFolder}",
+               "mainClass": "br.edu.iftm.tspi.sd.websockets_atividade.WebsocketsAtividadeApplication",
+               "projectName": "websockets_atividade",
+               "args": "",
+               "envFile": "${workspaceFolder}/.env"
+          }
+     ]
+}

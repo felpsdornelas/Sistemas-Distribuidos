@@ -7,10 +7,9 @@ import java.net.Socket;
 public class Servidor {
     public static void main(String[] args) throws Exception {
             ServerSocket s = new ServerSocket(50001, 10);
-            System.out.println("\n Conectei");
 
             while(true) {
-                System.out.println("Esperando conexão...");>
+                System.out.println("Esperando conexão...");
                 try (Socket conexao = s.accept();
                     DataInputStream entrada = new DataInputStream(conexao.getInputStream());
                     DataOutputStream saida = new DataOutputStream(conexao.getOutputStream())) {
